@@ -5,7 +5,7 @@
 To install this library, run:
 
 ```bash
-$ npm install auth --save
+$ npm install f1/auth --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install auth --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install auth
+$ npm install f1/auth
 ```
 
 and then from your Angular `AppModule`:
@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'auth';
+import { AuthModule } from 'f1/auth';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { SampleModule } from 'auth';
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    AuthModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -43,15 +43,7 @@ import { SampleModule } from 'auth';
 export class AppModule { }
 ```
 
-Once your library is imported, you can use its components, directives and pipes in your Angular application:
-
-```xml
-<!-- You can now use your library component in app.component.html -->
-<h1>
-  {{title}}
-</h1>
-<sampleComponent></sampleComponent>
-```
+Once your library is imported, you can use its components, directives and pipes in your Angular application.
 
 ## Development
 
