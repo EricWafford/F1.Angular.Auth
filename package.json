@@ -1,0 +1,52 @@
+{
+  "name": "@f1/auth",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "ngc -p tsconfig.json",
+    "lint": "tslint src/**/*.ts",
+    "test": "tsc && karma start",
+    "prepublish": "tsc",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fellowshiptech/F1-Lib.ClientAuth.git"
+  },
+  "author": {
+    "name": "Eric Wafford",
+    "email": "eric.wafford@fellowshipone.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fellowshiptech/F1-Lib.ClientAuth.git/issues"
+  },
+  "main": "./dist/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@angular/platform-browser": "^2.4.6",
+    "@angular/core": "^2.4.6",
+    "@angular/common": "^2.4.6",
+    "@angular/compiler": "^2.4.6",
+    "@angular/compiler-cli": "^2.4.6",
+    "@angular/http": "^2.4.6",
+    "@angular/platform-server": "^2.4.6",
+    "babel-polyfill": "6.22.0",
+    "codelyzer": "^2.0.0-beta.4",
+    "oidc-client": "^1.2.2",
+    "rxjs": "^5.1.0",
+    "tslint": "^4.4.2",
+    "typescript": "2.1.5",
+    "zone.js": "0.7.2",
+    "@types/es6-shim": "^0.31.32",
+    "@types/protractor": "^4.0.0",
+    "@types/jasmine": "^2.5.40",
+    "@types/selenium-webdriver": "^2.53.39"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
