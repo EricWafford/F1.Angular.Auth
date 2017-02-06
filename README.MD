@@ -5,7 +5,7 @@
 To install this library, run:
 
 ```bash
-$ npm install f1/auth --save
+$ npm install f1-auth --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install f1/auth --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install f1/auth
+$ npm install f1-auth
 ```
 
 and then from your Angular `AppModule`:
